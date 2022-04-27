@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item  border border-dark shadow">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button text-danger" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <h1>Select Course</h1>
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div class="col bg-warning d-flex justify-content-around p-3">
+            <div class="col text-light">Full Stack Developement</div>
+            <button type="button" class="button btn-dark">Select</button>
+          </div>
+          <div class="col bg-danger ">
+            <div class="col bg-danger d-flex justify-content-around p-3">
+              <div class="col text-light">FrontEnd Developement</div>
+              <button type="button" class="button btn-dark">Select</button>
+            </div>
+          </div>
+          <div class="col bg-primary d-flex justify-content-around p-3">
+            <div class="col text-light">PHP Developement</div>
+            <button type="button" class="button btn-dark">Select</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item my-2 border border-dark shadow">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          <h1 class="text-warning">Education</h1>
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div class= "col bg-warning d-flex justify-content-around p-3">
+            <div class="col text-light">12th pass</div>
+            <button type="button" class="button btn-dark">Select</button>
+          </div>
+          <div class= "col bg-primary d-flex justify-content-around p-3">
+            <div class="col text-light">Graduate</div>
+            <button type="button" class="button btn-dark">Select</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item my-2 border border-dark shadow">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <h1 class="text text-primary">City</h1>
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div class= "col bg-warning d-flex justify-content-around p-3">
+            <div class="col text-light">12th pass</div>
+            <button type="button" class="button btn-dark">Select</button>
+          </div>
+          <div class= "col bg-dark d-flex justify-content-around p-3">
+            <div class="col text-light">Graduate</div>
+            <button type="button" class="button btn-dark">Select</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
